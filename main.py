@@ -6,6 +6,8 @@ import shutil
 import logging
 import asyncio
 import traceback
+import random
+
 from pyrogram import Client, filters
 from core.creds import Credentials
 from core.database import Database
