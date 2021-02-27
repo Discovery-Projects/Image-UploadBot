@@ -9,6 +9,8 @@ import traceback
 import random
 import string
 import time
+import aiofiles
+import aiofiles.os
 
 from pyrogram import Client, filters
 from core.creds import Credentials
